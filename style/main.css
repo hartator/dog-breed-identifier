@@ -1,0 +1,306 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+  letter-spacing: -.03rem;
+  line-height: 1.5;
+}
+
+body {
+  height: 100%;
+  font-family: sans-serif;
+  color: #222;
+  font-weight: 300;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-image: linear-gradient(180deg,#36bdc9,#30aab5);
+}
+
+h1,h2,h3,h4 {
+  font-family: IowanOldStyle-Bold,Book Antiqua,Palatino,serif;
+  letter-spacing: -.03rem;
+  margin-top: 1.5em;
+  margin-bottom: .614rem;
+  line-height: 1.2;
+}
+
+h3 a,h3 a:visited {
+  text-decoration: none;
+  color: #222;
+}
+
+a,a:visited {
+  color: #0074D9;
+}
+
+.feature {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.feature:last-child {
+  padding-bottom: 3rem;
+}
+
+.ta-c,.hero {
+  text-align: center;
+}
+
+.hero {
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
+}
+
+.hero .row {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width:50rem) {
+  .hero .row {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin: auto;
+    position: absolute;
+    top: -10px; left: 0; bottom: 0; right: 0;
+  };
+}
+
+.hero__copy {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.hero__copy img {
+  border-radius: 0.54rem;
+  height: 2.59rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width:50rem) {
+  .hero__copy img {
+    margin-top: 0;
+  };
+}
+
+@media screen and (min-width:50rem) {
+  .hero__copy h1 {
+    margin-top: 0;
+  };
+}
+
+.hero__copy p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero .phone-frame {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+@media screen and (min-width:50rem) {
+  .hero .phone-frame {
+    text-align: right;
+    padding-right: 1rem;
+  };
+}
+
+.download-button {
+  display: block;
+}
+
+.download-button img {
+  height: 3.33rem;
+}
+
+.masthead {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  display: block;
+}
+
+.masthead img {
+  height: 1.66rem;
+  vertical-align: middle;
+}
+
+.phone-frame {
+  position: relative;
+}
+
+.phone-frame img {
+  width: 100%;
+  max-width: 18rem;
+}
+
+.phone-frame .demo {
+  position: absolute;
+  top: 11.7%;
+  right: 8.3%;
+  width: 84%;
+  border: 1px solid #222;
+}
+
+@media screen and (min-width:50rem) {
+  .phone-frame .demo {
+    right: 2.5rem;
+    width: 15.1rem;
+  };
+}
+
+.row {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.flex {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.step {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.step__text {
+  margin-bottom: 1rem;
+}
+
+.step__graphic img {
+  max-width: 100%;
+}
+
+.footer {
+  font-size: .875rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.footer ul li {
+  display: block;
+}
+
+@media screen and (min-width:50rem) {
+  .footer ul li {
+    display: inline;
+  };
+}
+
+.footer ul li a {
+  display: inline-block;
+  padding: .5rem 1rem;
+}
+
+.footer p {
+  font-size: .875rem;
+  color: #767676;
+}
+
+.form {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.form-input {
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  border: .1875rem solid #ddd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  padding: .75rem;
+  line-height: 1.5;
+}
+
+.form-input:focus {
+  outline: none;
+  border: .1875rem solid #767676;
+}
+
+.form-input.is-error {
+  border-color: #ff0042;
+}
+
+.is-submitted .form {
+  display: none;
+}
+
+.form-confirmation {
+  display: none;
+  text-align: center;
+}
+
+.is-submitted .form-instructions {
+  display: none;
+}
+
+.is-submitted .form-confirmation,button {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: #ff0042;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 .1875rem #ff0042,inset 0 0 0 1px #fff;
+}
+
+.rwd-img img {
+  max-width: 100%;
+}
