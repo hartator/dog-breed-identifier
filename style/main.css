@@ -30,7 +30,7 @@ body {
 h1,h2,h3,h4 {
   font-family: IowanOldStyle-Bold,Book Antiqua,Palatino,serif;
   letter-spacing: -.03rem;
-  margin-top: 1.5em;
+  margin-top: 0em;
   margin-bottom: .614rem;
   line-height: 1.2;
 }
@@ -86,7 +86,7 @@ a,a:visited {
 
 .hero__copy img {
   border-radius: 0.54rem;
-  height: 2.59rem;
+  height: 4.79rem;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
