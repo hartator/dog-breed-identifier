@@ -1,4 +1,4 @@
-# Food Calorie Counter
-Snap a picture, get an automated calorie count.
+# Dog Food Identifier
+Snap a picture of a dog and automatically discover its breed.
 
-Official site: [Food Calorie Counter](https://hartator.github.io/food-calorie-counter "Food Calorie Counter")
+Official site: [Dog Food Identifier](https://hartator.github.io/dog-food-identifier "Dog Food Identifier")
